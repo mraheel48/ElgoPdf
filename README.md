@@ -19,4 +19,9 @@ Step 2. Add the dependency
 	        implementation 'com.github.mraheel48:ElgoPdf:1.0.0'
 	}
       
-# Usage
+# Usage!
+Step 3. Go to MainActivity and create an obj of the createPdf..
+
+	final createPdf obj = new createPdf(MainActivity.this);
+	//and call the obj of any think for testing
+	obj.pdfTest();
