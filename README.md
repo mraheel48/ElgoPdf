@@ -22,14 +22,13 @@ Step 2. Add the dependency
 # Usage!
 Step 3. Go to MainActivity and create an obj of the createPdf..
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    	@Override
+    	protected void onCreate(Bundle savedInstanceState) {
+    	super.onCreate(savedInstanceState);
+    	setContentView(R.layout.activity_main);
 	
-    final createPdf obj = new createPdf(MainActivity.this);
-    //and call the obj of any think for testing
-    obj.pdfTest();
-    
+    	final createPdf obj = new createPdf(MainActivity.this);
+    	//and call the obj of any think for testing
+    	obj.pdfTest();
     }
 	
