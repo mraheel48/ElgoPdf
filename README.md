@@ -35,8 +35,8 @@ Step 3. Go to MainActivity and create an obj of the createPdf..
         Category.add("First 3");
         Category.add("First 4");
 	
-    	 final createPdf obj = new createPdf(MainActivity.this);
-
+	final createPdf obj = new createPdf(MainActivity.this);
+	
         obj.setAttribute(null, null, null, null);
         obj.setData("ElgoByte", "11/05/2019");
         obj.setTable("Table_Name", "Column1_Name", Category);
